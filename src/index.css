@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #2d4a3e;
+  --primary-light: #3d6b5a;
+  --accent: #e07b53;
+  --accent-hover: #c96a45;
+  --bg-gradient-1: #fdf8f3;
+  --bg-gradient-2: #f5ebe0;
+  --card-bg: rgba(255, 255, 255, 0.85);
+  --text-dark: #2c3e50;
+  --text-muted: #7f8c8d;
+  --border: #e8ddd4;
+  --success: #27ae60;
+  --danger: #e74c3c;
+  --shadow: 0 10px 40px rgba(45, 74, 62, 0.12);
+  --shadow-hover: 0 15px 50px rgba(45, 74, 62, 0.18);
+}
+
+body {
+  font-family: 'Noto Sans Thai', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: linear-gradient(135deg, var(--bg-gradient-1) 0%, var(--bg-gradient-2) 100%);
+  min-height: 100vh;
+  color: var(--text-dark);
+  line-height: 1.6;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 1rem;
+}
